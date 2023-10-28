@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    
+
+header {
+
+    display: flex;
+}
+
+nav {
+
+    display: flex;
+}
 
 * {
     margin:0;
@@ -8,6 +19,8 @@
 }
 
 body {
+
+
     display:flex;
     justify-content: center;
     align-items: center;

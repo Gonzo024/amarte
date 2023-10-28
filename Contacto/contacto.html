@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">AMARTE</a>
+
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu icono" alt="menu">
+
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="../Productos/productos.html">Productos</a></li>
+                    <li><a href="../Contacto/contacto.html">Contacto</a></li>
+                    <li><a href="../paginas/login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+
+            
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+        <div class="container">
+            <div class="box-info">
+                <h1>CONTÁCTATE CON NOSOTROS</h1>
+                <div class="data">
+                    <p><i class="fa-solid fa-phone"></i> +57 3233243613</p>
+                    <p><i class="fa-solid fa-envelope"></i> aamarte51@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> </p>
+                </div>
+                <div class="links">
+                    <a href="https://instagram.com/vs_arte_en_lienzo?igshid=MzRlODBiNWFlZA=="><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <form action="https://formspree.io/f/xjvqoodq" method="POST">
+                <div class="input-box">
+                    <input type="text" name="name" id="name" class="name" placeholder="Nombre y apellido" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="mail" id="mail" class="mail" placeholder="Correo electrónico">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="subject" id="subject" class="subject" placeholder="Asunto">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" class="message" id="message" class="message"
+                        placeholder="Escribe tu mensaje... id" message"></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+</body>
+
+</html>
